@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Animal Island theme",
+    "zh": "动物岛主题"
+  },
+  "description": {
+    "en": "Animal Island style theme for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 的动物岛风格主题。"
+  },
+  "metadata": {
+    "categories": {
+      "appearance": {
+        "title": {
+          "en": "Appearance",
+          "zh": "外观"
+        }
+      }
+    },
+    "labels": {
+      "theme": {
+        "title": {
+          "en": "Theme",
+          "zh": "主题"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-animal-island-theme",
+      "title": {
+        "en": "Animal Island theme",
+        "zh": "动物岛主题"
+      },
+      "description": {
+        "en": "Restyles the whole Harness UI after animal-island-ui: cream and teal palette, pill buttons with a pressed lip, inset switches, Nunito for Latin text, and CJK-aware spacing and line breaking. Works in light and dark mode.",
+        "zh": "参照 animal-island-ui 重绘整个 Harness 界面：奶油色与青绿配色、带按压底边的胶囊按钮、内嵌式开关，英文使用 Nunito 圆体，中文优化中西文间距、标点挤压与禁则换行。支持浅色和深色模式。"
+      },
+      "icon": "icons/dsh-animal-island-theme.svg",
+      "author": "nagisa-win",
+      "homepage": "https://github.com/nagisa-win/dsh-animal-island-theme#readme",
+      "repository": {
+        "url": "https://github.com/nagisa-win/dsh-animal-island-theme"
+      },
+      "metadata": {
+        "category": "appearance",
+        "labels": [
+          "theme"
+        ],
+        "keywords": [
+          "theme",
+          "animal-island-ui",
+          "cjk"
+        ]
+      },
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793954270,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/nagisa-win/dsh-animal-island-theme",
+            "commit": "96ddea7a1b774ced76a7b3e0c60bab4716175f27"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
